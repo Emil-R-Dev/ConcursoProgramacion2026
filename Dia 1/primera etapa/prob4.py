@@ -33,10 +33,13 @@ def esSociable(num):
             
                 print(num, ", no es sociable")
 
-def txt():
-    with open("sociable.txt","r"):
-        open.write("sociable.txt")
-        numeros.append
+def main():
+    with open("Dia 1/primera etapa/sociable.txt","r") as archivo:
+        
+        for numero in archivo:
+            esSociable(int(numero))
+            if(int(numero) ==-1):
+                break
 
-esSociable(num)
+main()
 
