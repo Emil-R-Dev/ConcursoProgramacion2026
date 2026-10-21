@@ -3,7 +3,7 @@
 def genmatrizA():
     
     matrizA=[]
-    with open ("matrizA.txt","r") as archivo:
+    with open ("Dia 1/segunda etapa/matrizA.txt","r") as archivo:
 
         for line in archivo:
             fila=[]
@@ -22,7 +22,7 @@ def genmatrizA():
 def genmatrizB():
     
     matrizB=[]
-    with open ("matrizB.txt","r") as archivo:
+    with open ("Dia 1/segunda etapa/matrizB.txtt","r") as archivo:
 
         for line in archivo:
             fila=[]
@@ -53,7 +53,7 @@ def sumar(matrizA, matrizB):
 def main():
 
     
-    with open("segunda etapa/matrizC.txt", "w") as c:
+    with open("Dia 1/segunda etapa/matrizC.txt", "w") as c:
         matrizA=genmatrizA()
         matrizB=genmatrizB()
         final=(sumar(matrizA,matrizB))

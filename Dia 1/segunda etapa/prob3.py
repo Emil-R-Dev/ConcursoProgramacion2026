@@ -60,7 +60,7 @@ def traducir(cadena):
 
 
 def main():
-    with open("segunda etapa/decode.txt","r") as archivo:
+    with open("Dia 1/segunda etapa/decode.txt","r") as archivo:
     #cadena = open("segunda etapa/decode.txt","r")
     #cadena=open("segunda etapa/decode.txt","w")
         for cadena in archivo:
