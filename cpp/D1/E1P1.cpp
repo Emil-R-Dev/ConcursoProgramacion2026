@@ -9,14 +9,10 @@ void normalize(string &cadena)
     string normal = "";
     for (size_t i = 0; i < cadena.size(); ++i)
     {
-        if (cadena[i] >= 'a' && cadena[i] <= 'z')
+        if (isalpha(cadena[i]))
         {
-            normal.push_back(cadena[i]);
-            continue;
-        }
-        if (cadena[i] >= 'A' && cadena[i] <= 'Z')
-        {
-            cadena[i] += 32;
+            if (cadena[i] >= 'A' && cadena[i] <= 'Z')
+                cadena[i] += 32;
             normal.push_back(cadena[i]);
             continue;
         }
